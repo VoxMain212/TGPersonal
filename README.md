@@ -33,7 +33,7 @@
 - **Python 3.8+**
 - **aiogram 3.x** - Асинхронный Telegram Bot API фреймворк
 - **SQLAlchemy** - ORM для работы с базой данных
-- **SQLite/PostgreSQL** - Реляционная база данных
+- **SQLite** - Реляционная база данных
 - **FSM (Finite State Machine)** - Управление состояниями диалогов
 
 ### Архитектура
@@ -56,8 +56,8 @@ telegram_assistant_bot/
 - Telegram Bot Token (получить через @BotFather)
 
 ### Установка
-git clone https://github.com/yourusername/telegram-assistant-bot.git
-cd telegram-assistant-bot
+git clone git@github.com:VoxMain212/TGPersonal.git
+cd TGPersonal
 pip install -r requirements.txt
 
 ### Настройка
@@ -67,11 +67,6 @@ DATABASE_URL=sqlite:///bot.db
 
 ### Запуск
 python bot.py
-
-### Разработка
-Для автоматической перезагрузки при изменении кода:
-pip install watchdog
-python -m watchdog.watchmedo auto-restart --directory=./ --pattern=*.py --recursive -- python bot.py
 
 ## 📊 Структура базы данных
 
@@ -102,7 +97,7 @@ python -m watchdog.watchmedo auto-restart --directory=./ --pattern=*.py --recurs
 
 ## 📞 Контакты
 
-Если у вас есть вопросы или предложения, создайте issue в репозитории или свяжитесь через Telegram.
+Если у вас есть вопросы или предложения, создайте issue в репозитории.
 
 ## 🙏 Благодарности
 
