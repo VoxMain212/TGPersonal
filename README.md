@@ -56,7 +56,7 @@ telegram_assistant_bot/
 - Telegram Bot Token (получить через @BotFather)
 
 ### Установка
-git clone git@github.com:VoxMain212/TGPersonal.git
+git clone https://github.com/VoxMain212/TGPersonal.git
 cd TGPersonal
 pip install -r requirements.txt
 
